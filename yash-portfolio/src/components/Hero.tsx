@@ -1,11 +1,11 @@
-import React, { useEffect, useRef } from "react";
-import { motion, useAnimation } from "framer-motion";
+import { useEffect, useRef } from "react";
+import { motion, useAnimation, easeInOut } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, Sparkles } from "lucide-react";
 import { Button } from "../components/ui/button";
 
 export default function Hero() {
   const controls = useAnimation();
-  const particlesRef = useRef(null);
+  const particlesRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     // Animated typing effect sequence
@@ -25,6 +25,7 @@ export default function Hero() {
       particle.style.animationDuration = (Math.random() * 3 + 2) + 's';
       
       particlesRef.current.appendChild(particle);
+      // const particlesRef = useRef<HTMLDivElement | null>(null);
       
       setTimeout(() => {
         particle.remove();
@@ -47,7 +48,7 @@ export default function Hero() {
     transition: {
       duration: 3,
       repeat: Infinity,
-      ease: "easeInOut"
+      ease: easeInOut
     }
   };
 
@@ -60,7 +61,7 @@ export default function Hero() {
     transition: {
       duration: 2,
       repeat: Infinity,
-      ease: "easeInOut"
+      ease: easeInOut // use the imported easing function
     }
   };
 
