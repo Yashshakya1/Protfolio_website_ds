@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { motion, useAnimation, easeInOut } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, Sparkles } from "lucide-react";
 import { Button } from "../components/ui/button";
-
+import profilePic from "../assets/8EB47BB6-5923-4470-B65C-8B111252B9D6_1_105_c.jpeg";
 export default function Hero() {
   const controls = useAnimation();
   const particlesRef = useRef<HTMLDivElement | null>(null);
@@ -101,10 +101,10 @@ export default function Hero() {
               className="w-40 h-40 mx-auto mb-8 bg-gradient-to-br from-orange-400 via-yellow-500 to-green-500 rounded-full flex items-center justify-center relative"
             >
               <motion.span 
-                animate={floatingAnimation}
+                // animate={floatingAnimation}
                 className="text-5xl font-bold text-white drop-shadow-lg"
               >
-                YS
+                <img src={profilePic} alt="Profile" className="w-full h-full object-cover rounded-full" />
               </motion.span>
               <motion.div
                 animate={{ rotate: 360 }}

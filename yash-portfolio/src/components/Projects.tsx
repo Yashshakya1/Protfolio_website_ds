@@ -23,18 +23,30 @@ export default function Projects() {
 
   const projects: ProjectType[] = [
     {
-      id: 1,
-      title: "Predictive Churn Model",
-      description: "Developed a machine learning model to predict customer churn with 94% accuracy.",
-      fullDescription:
-        "Built an end-to-end ML pipeline using Python, Pandas, and Scikit-learn. Includes feature engineering, model selection, hyperparameter tuning, and early churn detection.",
-      image: "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800&h=600&fit=crop",
-      tags: ["Machine Learning", "Python", "Pandas", "Scikit-learn"],
-      github: "https://github.com/Yashshakya1",
-      live: "#",
-      color: "from-blue-500 to-cyan-500",
-      metrics: { accuracy: "94%", features: "25+", dataset: "50k rows" },
-    },
+  id: 1,
+  title: "End-to-End Real Estate Price Prediction System",
+  description: "Built a complete machine learning regression system to predict real estate prices with an interactive Streamlit UI.",
+  fullDescription:
+    "Developed a full end-to-end machine learning project for real estate price prediction. The project includes data preprocessing, exploratory data analysis (EDA), feature engineering, model building using regression algorithms, and performance evaluation using R², MAE, and RMSE metrics. Built an interactive user interface using Streamlit and deployed the application on Render for live access. This project demonstrates complete ML lifecycle from data to deployment.",
+  image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop",
+  tags: [
+    "Machine Learning",
+    "Python",
+    "Regression",
+    "Scikit-learn",
+    "Streamlit",
+    "Render",
+    "Deployment"
+  ],
+  github: "https://github.com/Yashshakya1/Machine_learning_projects",
+  live: "https://machine-learning-projects-1-0p38.onrender.com", // add your Render deployed link here
+  color: "from-green-500 to-emerald-500",
+  metrics: {
+    type: "Regression Model",
+    deployment: "Streamlit + Render",
+    projectLevel: "End-to-End ML System"
+  },
+},
     {
       id: 2,
       title: "Sentiment Analysis Engine",
