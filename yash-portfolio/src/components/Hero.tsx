@@ -43,15 +43,6 @@ export default function Hero() {
     }
   };
 
-  const floatingAnimation = {
-    y: [0, -20, 0],
-    transition: {
-      duration: 3,
-      repeat: Infinity,
-      ease: easeInOut
-    }
-  };
-
   const glowAnimation = {
     boxShadow: [
       "0 0 20px rgba(187, 197, 214, 0.3)",
