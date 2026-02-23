@@ -1,4 +1,7 @@
 {
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "",
   "dependencies": {
     "@tsparticles/react": "^3.0.0",
     "tsparticles": "^3.9.1"
