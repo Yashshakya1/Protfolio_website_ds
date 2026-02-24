@@ -17,6 +17,7 @@ export default function Hero() {
     // Floating particles animation
     const createParticle = () => {
       if (!particlesRef.current) return;
+      // dfds 
       
       const particle = document.createElement('div');
       particle.className = 'absolute w-2 h-2 bg-blue-400 rounded-full opacity-30 animate-pulse';
