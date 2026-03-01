@@ -12,6 +12,10 @@ export default function About() {
     { icon: Target, label: "Accuracy Achieved", value: "95%+", color: "from-green-500 to-emerald-500" },
     { icon: Lightbulb, label: "Data Insights", value: "∞", color: "from-orange-500 to-red-500" }
   ];
+  // this is for the about section of the portfolio, it has a left side with text and a right side with an image. The stats section
+  //  is below
+  //  the main content and has 4 stats with icons and values. The whole section has some animated background elements
+  //  for visual interest.
 
   const containerVariants = {
     hidden: { opacity: 0 },
