@@ -11,7 +11,7 @@ import {
   Zap,
   Star
 } from "lucide-react";
-
+ // import { Database, BrainCircuit, BarChart, Code, Cpu, MessageSquare, Zap, Star } from "lucide-react";
 export default function Skills() {
   const [selectedCategory, setSelectedCategory] = useState<any>(null);
 
