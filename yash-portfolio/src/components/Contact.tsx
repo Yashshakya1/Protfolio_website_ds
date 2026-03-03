@@ -5,6 +5,7 @@ import { Button } from "../components/ui/button";
 import { Input } from "../components/ui/input";
 import { Textarea } from "../components/ui/textarea";
 
+// Contact.tsx - A dynamic and interactive contact section with animated background, contact info, and a contact form with submission feedback.
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
