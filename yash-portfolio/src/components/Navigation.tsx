@@ -3,6 +3,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "../components/ui/button";
+// Navigation component with active section highlighting and mobile responsiveness
 
 interface NavigationProps {
   activeSection: string;
