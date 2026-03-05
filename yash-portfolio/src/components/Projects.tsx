@@ -16,6 +16,7 @@ interface ProjectType {
   color: string;
   metrics: Record<string, string>;
 }
+// Projects component showcasing data science projects with interactive modals and animations
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<ProjectType | null>(null);
