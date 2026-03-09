@@ -6,6 +6,7 @@ import profilePic from "../assets/8EB47BB6-5923-4470-B65C-8B111252B9D6_1_105_c.j
 export default function Hero() {
   const controls = useAnimation();
   const particlesRef = useRef<HTMLDivElement | null>(null);
+  // const [particles, setParticles] = useState<{ id: number; x: number; y: number; size: number; opacity: number }[]>([]);
 
   useEffect(() => {
     // Animated typing effect sequence
