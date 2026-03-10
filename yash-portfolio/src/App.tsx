@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Navigation from "./components/Navigation";
+// import "./App.css";
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("hero");
